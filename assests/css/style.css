@@ -1,0 +1,35 @@
+/* ========================= universal selector start =========================*/
+
+/* ========================= FONT SECTION CSS START ========================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+/* ========================= /FONT SECTION CSS END ========================= */
+
+/* ========================= HEADER SECTION CSS START ========================= */
+@import url(./header.css);
+/* ========================= /HEADER SECTION CSS END ========================= */
+
+/* ========================= FOOTER SECTION CSS START ========================= */
+@import url(./footer.css);
+/* ========================= /FOOTER SECTION CSS END ========================= */
+
+/* ========================= RESPONSIVE SECTION CSS START ========================= */
+@import url(./responsive.css);
+/* ========================= /RESPONSIVE SECTION CSS END ========================= */
+
+/* ========================= UNIVERSAL CSS START ========================= */
+@import url(./universal.css);
+/* ========================= /UNIVERSAL CSS END ========================= */
+
+/* ========================= ANIMATION CSS START ========================= */
+@import url(./animation.css);
+/* ========================= /ANIMATION CSS END ========================= */
+
+/* ========================= INDEX SECTION CSS START ========================= */
+@import url(./index.css);
+/* ========================= /INDEX SECTION CSS END ========================= */
+
+
+/* ========================= /universal selector end =========================*/
