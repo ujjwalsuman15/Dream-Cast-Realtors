@@ -1,0 +1,28 @@
+/* ======================================= ABOUT SECTION CSS START ======================================= */
+
+
+/* what-makes-us-diff section start */
+
+.diff-card {
+    background-image: linear-gradient(to right, #AE8625, #F7EF8A, #D2AC47, #EDC967);
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.diff-card i {
+    font-size: 40px;
+    color: #f4b400;
+    margin-bottom: 15px;
+}
+
+.diff-card:hover {
+    background-image: linear-gradient(to right, #f3c23c, #EDC967, #c29c35, #f3c23c, #EDC967);
+    transform: translateY(-10px);
+    transition: 0.3s;
+}
+
+/* what-makes-us-diff section end */
+
+/* ======================================= /ABOUT SECTION CSS END ======================================= */

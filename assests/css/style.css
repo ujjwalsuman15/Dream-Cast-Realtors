@@ -31,5 +31,9 @@
 @import url(./index.css);
 /* ========================= /INDEX SECTION CSS END ========================= */
 
+/* ========================= ABOUT SECTION CSS START ========================= */
+@import url(./about.css);       
+/* ========================= /ABOUT SECTION CSS END ========================= */
+
 
 /* ========================= /universal selector end =========================*/

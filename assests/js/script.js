@@ -103,21 +103,48 @@ form.addEventListener('submit', function (e) {
         method: 'POST',
         body: fd
     })
-    .then(res => res.json())
-    .then(data => {
-        if (data.result === 'success') {
-            // SAME PAGE ME YEH MESSAGE SHOW HOGA
-            alert("✔ Form Submitted Successfully!");
-            form.reset();
-            form.classList.remove('was-validated');
-        } else {
-            alert("Submission failed: " + data.message);
-        }
-    })
-    .catch(err => {
-        alert("Network/server error");
-        console.error(err);
-    });
+        .then(res => res.json())
+        .then(data => {
+            if (data.result === 'success') {
+                // SAME PAGE ME YEH MESSAGE SHOW HOGA
+                alert("✔ Form Submitted Successfully!");
+                form.reset();
+                form.classList.remove('was-validated');
+            } else {
+                alert("Submission failed: " + data.message);
+            }
+        })
+        .catch(err => {
+            alert("Network/server error");
+            console.error(err);
+        });
 });
 
 // form js section start end
+
+
+// clients logo slider section start
+$(document).ready(function () {
+    $('.customer-logos').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 4
+            }
+        }, {
+            breakpoint: 520,
+            settings: {
+                slidesToShow: 3
+            }
+        }]
+    });
+});
+
+// clients logo slider section end

@@ -2,23 +2,6 @@
 
 
 /* ========================= hero section start ========================= */
-/* 
-.hero .carousel-item {
-    position: relative;
-}
-
-.hero .carousel-caption {
-    top: 40%;
-}
-
-
-.carousel-indicators [data-bs-target] {
-    width: 0px;
-    height: 0px;
-    padding: 8px;
-    border: 2px solid #ffffff;
-    border-radius: 50px 50px;
-} */
 
 .hero-section {
     height: 100vh;
@@ -97,11 +80,11 @@
     position: absolute;
     left: 0;
     top: 0;
-    transition: 0.5s;
+    transition: all linear;
 }
 
 .home-page-content .key-highlights-section ul.key-highlights-list li:hover span {
-    background: #FFC107;
+    background-image: linear-gradient(to right, #f3c23c, #EDC967, #c59205, #f3c23c, #EDC967);
     transition: all 1s linear;
 }
 
@@ -141,7 +124,7 @@
     top: 0;
     left: 0;
     right: 0;
-    background: #FFC107;
+    background-image: linear-gradient(to right, #f3c23c, #EDC967, #c59205, #f3c23c, #EDC967);
     border-radius: 50%;
     z-index: -1;
     transition: 0.5s;
@@ -207,5 +190,134 @@
 }
 
 /* ========================= /about section end ========================= */
+
+/* ========================= clients section start ========================= */
+.clients-section h1 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+    padding: 20px;
+}
+
+/* Slider */
+
+.clients-section .slick-slide {
+    margin: 0px 20px;
+}
+
+.clients-section .slick-slide img {
+    cursor: pointer;
+    width: 100%;
+    border: 2px solid #000;
+    border-radius: 20px;
+}
+
+.clients-section .slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.clients-section .slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.clients-section .slick-list:focus {
+    outline: none;
+}
+
+.clients-section .slick-list.dragging {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.clients-section .slick-slider .slick-track,
+.clients-section .slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.clients-section .slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+.clients-section .slick-track:before,
+.clients-section .slick-track:after {
+    display: table;
+    content: '';
+}
+
+.clients-section .slick-track:after {
+    clear: both;
+}
+
+.clients-section .slick-loading .slick-track {
+    visibility: hidden;
+}
+
+.clients-section .slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+
+.clients-section [dir='rtl'] .slick-slide {
+    float: right;
+}
+
+.clients-section .slick-slide img {
+    display: block;
+}
+
+.clients-section .slick-slide.slick-loading img {
+    display: none;
+}
+
+.clients-section .slick-slide.dragging img {
+    pointer-events: none;
+}
+
+.clients-section .slick-initialized .slick-slide {
+    display: block;
+}
+
+.clients-section .slick-loading .slick-slide {
+    visibility: hidden;
+}
+
+.clients-section .slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+
+.clients-section .slick-arrow.slick-hidden {
+    display: none;
+}
+
+/* ========================= /clients section end ========================= */
 
 /* ======================================= /INDEX SECTION CSS END ======================================= */
