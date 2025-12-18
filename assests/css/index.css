@@ -9,38 +9,6 @@
         url(../img/banner/bg_banner/building_center.jpeg) center/cover no-repeat;
 }
 
-
-
-
-
-
-
-.service-card {
-    background: #fff;
-    padding: 30px;
-    text-align: center;
-    border-radius: 10px;
-    height: 220px;
-    transition: 0.3s;
-}
-
-.service-card i {
-    font-size: 40px;
-    color: #f4b400;
-    margin-bottom: 15px;
-}
-
-.service-card:hover {
-    transform: translateY(-10px);
-}
-
-.property-card {
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-}
-
-
 /* ========================= /hero css section end ========================= */
 
 /* ========================= Home Page Content section start ========================= */
@@ -191,15 +159,45 @@
 
 /* ========================= /about section end ========================= */
 
+/* ========================= services section start ========================= */
+
+
+.service-card {
+    background-image: linear-gradient(to right, #AE8625, #F7EF8A, #D2AC47, #EDC967);
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    height: 220px;
+    transition: 0.3s;
+}
+
+.service-card i {
+    font-size: 40px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.service-card:hover {
+    background-image: linear-gradient(to right, #f3c23c, #EDC967, #c29c35, #f3c23c, #EDC967);
+    transform: translateY(-10px);
+}
+
+/* ========================= /services section end ========================= */
+
+/* ========================= projects section start ========================= */
+
+.property-card {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+
+/* ========================= /projects section end ========================= */
+
 /* ========================= clients section start ========================= */
 .clients-section h1 {
-    text-align: center;
     font-size: 45px;
-    font-weight: 700;
-    margin-bottom: 40px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #000000;
-    padding: 20px;
 }
 
 /* Slider */
